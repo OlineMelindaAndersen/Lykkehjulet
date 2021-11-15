@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">s201010 Lykkehjulet</string>
+    <string name="start_game">Start game</string>
+    <string name="welcome">Welcome to the wheel of fortune</string>
+    <string name="spin">Spin the wheel</string>
+    <string name="play_again">Play again</string>
+    <string name="exit">Exit game</string>
+    <string name="won_message">Congratulations! You guessed the word and won the game!</string>
+    <string name="lost_message">Oh no! You are out of lives and have lost the game.. </string>
+
+
+
 </resources>
