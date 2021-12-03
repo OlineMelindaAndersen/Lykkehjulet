@@ -3,15 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/gameLost">
+    app:startDestination="@id/startScreen">
     <fragment
-        android:id="@+id/gameLost"
-        android:name="com.example.s201010lykkehjulet.gameLost"
-        android:label="fragment_game_lost"
-        tools:layout="@layout/fragment_game_lost" />
+        android:id="@+id/startScreen"
+        android:name="com.example.s201010lykkehjulet.StartScreen"
+        android:label="start_screen_fragment"
+        tools:layout="@layout/start_screen_fragment">
+        <action
+            android:id="@+id/action_startScreen_to_categoryScreen"
+            app:destination="@id/categoryScreen" />
+    </fragment>
     <fragment
-        android:id="@+id/gameWon"
-        android:name="com.example.s201010lykkehjulet.gameWon"
-        android:label="fragment_game_won"
-        tools:layout="@layout/fragment_game_won" />
+        android:id="@+id/categoryScreen"
+        android:name="com.example.s201010lykkehjulet.CategoryScreen"
+        android:label="category_screen_fragment"
+        tools:layout="@layout/category_screen_fragment" />
+    <fragment
+        android:id="@+id/lostScreen"
+        android:name="com.example.s201010lykkehjulet.LostScreen"
+        android:label="lost_screen_fragment"
+        tools:layout="@layout/lost_screen_fragment" >
+        <action
+            android:id="@+id/action_lostScreen_to_categoryScreen"
+            app:destination="@id/categoryScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/wonScreen"
+        android:name="com.example.s201010lykkehjulet.WonScreen"
+        android:label="won_screen_fragment"
+        tools:layout="@layout/won_screen_fragment">
+        <action
+            android:id="@+id/action_wonScreen_to_categoryScreen"
+            app:destination="@id/categoryScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameScreen"
+        android:name="com.example.s201010lykkehjulet.GameScreen"
+        android:label="fragment_game_screen"
+        tools:layout="@layout/game_screen_fragment" />
 </navigation>

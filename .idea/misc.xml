@@ -5,8 +5,21 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.35885416666666664" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10855949895615867" />
+        <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/category_item.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/category_screen_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1984375" />
         <entry key="app/src/main/res/layout/fragment_game_lost.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/fragment_game_screen.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/fragment_game_won.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/fragment_hej.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/game_screen.xml" value="0.31476449275362317" />
+        <entry key="app/src/main/res/layout/game_screen_fragment.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/lost_screen_fragment.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/start_screen_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/welcome_screen.xml" value="0.134375" />
+        <entry key="app/src/main/res/layout/welcome_screen_fragment.xml" value="0.134375" />
+        <entry key="app/src/main/res/layout/won_screen_fragment.xml" value="0.55" />
       </map>
     </option>
   </component>
